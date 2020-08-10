@@ -1,0 +1,41 @@
+form {
+    display: flex;
+    margin: 0.5rem;
+}
+form>input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s opacity ease-in;
+}
+button:hover {
+    opacity: 0.88;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

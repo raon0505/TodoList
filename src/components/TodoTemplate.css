@@ -1,0 +1,38 @@
+section {
+    border-radius: 5px;
+    margin: 5rem auto 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1rem;
+}
+
+@media (min-width: 576px) {
+    section {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    section {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    section {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        max-width: 1140px;
+    }
+}

@@ -1,4 +1,47 @@
+:root {
+  --Dark-Primary: #1F1B24;
+  --Primary: #BB86FC;
+  --Primary-Variant: #3700B3;
+  --Secondary: #03DAC6;
+  --Background: #121212;
+  --Surface: #121212;
+  --Error: #CF6679;
+  --On-Primary: #000000;
+  --On-Secondary: #000000;
+  --On-Background: #FFFFFF;
+  --On-Surface: #FFFFFF;
+  --On-Error: #000000;
+  --High-Emphasis: 0.87;
+  --Medium-Emphasis: 0.6;
+  --Disabled: 0.38;
+}
+
+.dark-primary{background-color:var(--Dark-Primary)}
+.primary{background-color:var(--Primary)}
+.primary-variant{background-color:var(--Primary-Variant)}
+.secondary{background-color:var(--Secondary)}
+.background{background-color:var(--Background)}
+.surface{background-color:var(--Surface)}
+.error{background-color:var(--Error)}
+.on-primary{color:var(--On-Primary)}
+.on-secondary{color:var(--On-Secondary)}
+.on-background{color:var(--On-Background);opacity:var(--High-Emphasis)}
+.on-surface{color:var(--On-Surface)}
+.on-error{color:var(--On-Error)}
+.high-emphasis{opacity:var(--High-Emphasis)}
+.medium-emphasis{opacity:var(--Medium-Emphasis)}
+.disable{opacity:var(--Disabled)}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  opacity: var(--High-Emphasis);
+  outline: none;
+}
+
 body {
+  background-color: var(--Background);
+  color: var(--On-Background);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +53,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+.onPrimary {
+  color: var(--On-Primary);
 }
